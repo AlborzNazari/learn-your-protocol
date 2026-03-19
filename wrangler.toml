@@ -1,0 +1,14 @@
+name = "learn-your-protocol"
+compatibility_date = "2024-01-01"
+
+[site]
+bucket = "./public"
+```
+
+**Step 2 — Move your file into a `public/` folder and rename it**
+```
+learn-your-protocol/
+├── public/
+│   └── index.html        ← your app goes here
+├── wrangler.toml
+└── README.md
